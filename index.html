@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Но ани усердна питаються</title>
+		<meta charset="utf-8">
+		<meta name="authro" content="Nonamechik">
+		<meta name="description" content="Повторения html - язика гипер тектовой разметки и css - язика стилей">
+		<meta name="keywords" content="html,css,обучения">
+		<link rel="stylesheet" type="text/css" href="normalaiz.css">
+		<link rel="stylesheet" type="text/css" href="style_1.css">
+		<link rel="shortcut icon" type="images/png" href="favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+		
+
+	</head>
+
+    
+	<body>
+
+        
+
+
+	
+	</body>
+
+</html>
+
+
+
+<script>
+
+	// Выбирает разрешение камеры близкое к 1280x720.
+	var constraints = { audio: true, video: { width: 1280, height: 720 } };
+
+	navigator.mediaDevices.getUserMedia(constraints)
+	.then(function(mediaStream) {
+		var video = document.querySelector('video');
+		video.srcObject = mediaStream;
+		video.onloadedmetadata = function(e) {
+			video.play();
+		};
+	})
+	.catch(function(err) { console.log(err.name + ": " + err.message); }); // always check for errors at the end.
+
+</script> 
+  
+
+
+
+
+
