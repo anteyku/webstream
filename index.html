@@ -20,6 +20,7 @@
 	<body>
 
 
+		<video autoplay></video> 
 
 
 	
@@ -34,15 +35,40 @@
 <script>
 
 
+/*
+// рабочая проверка на работу видео в браузерре
+//check if browser supports getUserMedia
+if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+  alert('Your browser does not support recording!');
+} else {
+	console.log(`Браузер поддерживает аудио`);
+}
+*/
 
-navigator.mediaDevices.getUserMedia(constraints)
-.then(function(stream) {
-  console.log(stream)
-})
-.catch(function(err) {
-  console.log(err);
-});
 
+function hasUserMedia() { 
+   //check if the browser supports the WebRTC 
+   return !!(navigator.getUserMedia || navigator.webkitGetUserMedia || 
+      navigator.mozGetUserMedia); 
+} 
+
+if (hasUserMedia()) { 
+   navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia
+      || navigator.mozGetUserMedia; 
+		
+			
+   //enabling video and audio channels 
+   navigator.getUserMedia({ video: true, audio: true }, function (stream) { 
+      var video = document.querySelector('video'); 
+
+		
+      //inserting our stream to the video tag     
+      video.src = window.URL.createObjectURL(stream); 
+   }, function (err) {}); 
+} else { 
+
+   alert("WebRTC is not supported"); 
+}
 
 
 </script> 
