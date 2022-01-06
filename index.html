@@ -35,7 +35,13 @@
 
 
 
-console.log(navigator.getUserMedia(constraints, successCallback, errorCallback))
+navigator.mediaDevices.getUserMedia(constraints)
+.then(function(stream) {
+  console.log(stream)
+})
+.catch(function(err) {
+  console.log(err);
+});
 
 
 
