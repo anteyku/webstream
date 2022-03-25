@@ -184,6 +184,146 @@ main{
       }
     }
   }
+
+  /* Block Наши приемущества */
+  .benefits{
+    padding-bottom: 8%;
+    .benefits__title-back{
+      position: relative;
+      padding-top: 6%;
+      padding-bottom: 9%;
+      img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      .benefits__title-back__title{
+        font-family: @inter;
+        font-weight: 800;
+        color: white;
+        font-size: 48px;
+      }
+      .benefits__title-back__description{
+        font-family: @inter;
+        color: white;
+        font-size: 18px;
+      }
+    }
+    .benefits__row{
+      position: relative;
+      margin-top: -10%;
+      .benefits__ark{
+        border-color: blue;
+        position: relative;
+        overflow: hidden;
+
+    
+        img{
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .benefits__ark__number{
+          font-family: @inter;
+          font-weight: 800;
+          font-size: 48px;
+          position: relative;
+          z-index: 1;
+          text-align: center;
+          margin-top: 32%;
+          span{
+            color: #ffad00;
+          }
+        }
+        .benefits__ark__text{
+          font-family: @inter;
+          font-weight: 400;
+          font-size: 18px;
+          color: black;
+          position: relative;
+          z-index: 1;
+          text-align: center;
+          margin-bottom: 54%;
+        }
+      }
+    }
+    .benefits__wont-buy{
+      .benefits__wont-buy__title{
+        font-family: @inter;
+        font-weight: 800;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 3%;
+      }
+      .benefits__wont-buy__desc{
+        font-family: @inter;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 1%;
+      }
+    }
+
+
+    form{
+      margin-top: 3%;
+      display: block;
+      .benefits__input-name{
+        border-style: none;
+        background-color: #F4F5F7;
+        border-radius: 5px 0px 0px 5px;
+        padding: 2%;
+        padding-top: 1.3%;
+        padding-bottom: 1.3%;
+        margin-top: 2%;
+        &::placeholder{
+          font-family: @inter;
+          font-weight: 400;
+        }
+      }
+      .benefits__number{
+        display: flex;
+        margin-top: 1%;
+        input{
+          border-style: none;
+          background-color: #F4F5F7;
+          border-radius: 5px 0px 0px 5px;
+          padding: 2%;
+          padding-top: 2.7%;
+          padding-bottom: 2.7%;
+          width: 60%;
+          align-self: center;
+          &::placeholder{
+            font-family: @inter;
+            font-weight: 400;
+          }          
+        }
+        a{
+          width: 40%;
+          text-align: center;
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          background-color: black;
+          border-radius: 0px 5px 5px 0px;
+          font-family: @inter;
+          align-self: center;
+          padding-top: 2.7%;
+          padding-bottom: 2.7%;
+          margin-top: 2%;
+        }
+      }
+    }
+
+
+    
+
+  }
+  /* End block Наши приемущества */
 }
 
 /* End main*/
