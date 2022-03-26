@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 2000px;
+  height: 3000px;
 }
 /* Header */
 header {
@@ -296,5 +296,258 @@ main .benefits form .benefits__number a {
   padding-top: 2.7%;
   padding-bottom: 2.7%;
   margin-top: 2%;
+}
+main .setting {
+  background-color: #E7E7E7;
+  padding-bottom: 5%;
+}
+main .setting .price-title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 43px;
+  padding-left: 0%;
+  padding-right: 0%;
+  font-weight: 800;
+  padding: 0.8%;
+  border-radius: 0px 0px 30px 30px;
+}
+main .setting .setting__left {
+  margin-top: 1%;
+  padding-left: 0;
+  padding-right: 0;
+}
+main .setting .setting__left .setting__left__blocks {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+main .setting .setting__left .setting__left__blocks .setting__left__blocks__block {
+  background-color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  line-height: 19px;
+  padding-top: 0.7%;
+  padding-bottom: 0.5%;
+  display: inline-block;
+}
+main .setting .setting__left .setting__left__blocks .setting__left__blocks__block:nth-child(1) {
+  font-weight: 700;
+  background: #FFAD00;
+}
+main .setting .setting__left .setting__left__title {
+  text-align: center;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  padding: 1%;
+  font-weight: 500;
+  border-radius: 5px;
+}
+main .setting .setting__left .setting__left__category {
+  background-color: #CFCFCF;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+main .setting .setting__left .setting__left__category .setting__left__category__block {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__one {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__one .setting__lefft__product__one__block {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__two {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__three {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__checkbox {
+  border-bottom-style: solid;
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__checkbox .setting__left__product__checkbox__arrow {
+  width: 20%;
+  background-color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__checkbox .setting__left__product__checkbox__count {
+  background: #CFCFCF;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-style: none;
+}
+main .setting .setting__left .setting__left__product .setting__left__product__checkbox .setting__left__product__checkbox__count::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+main .setting .settin__right__white {
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-top: 2.4%;
+}
+main .setting .settin__right__white .setting__right {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: inline-block;
+  padding-bottom: 8%;
+}
+main .setting .settin__right__white .setting__right .setting__right__imp-title {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 5%;
+  border-bottom-style: solid;
+  border-color: #CFCFCF;
+  border-width: 2px;
+  margin-bottom: 15%;
+  padding-bottom: 2%;
+}
+main .setting .settin__right__white .setting__right .setting__right__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+main .setting .settin__right__white .setting__right input.setting__right__input {
+  background: #CFCFCF;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-style: none;
+}
+main .setting .settin__right__white .setting__right input.setting__right__input::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex .setting__right__buy {
+  text-decoration: none;
+  width: 75%;
+  background: #FFAD00;
+  color: black;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 4%;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex .setting__right__busket {
+  width: 20%;
+  margin-top: 4%;
+  margin-left: auto;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex .setting__right__busket img {
+  width: 100%;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex .setting__right__oform-block {
+  text-decoration: none;
+  width: 100%;
+  background: #FFAD00;
+  color: black;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 4%;
+}
+main .setting .settin__right__white .setting__right .setting__right__flex .setting__right__dostavka {
+  text-decoration: none;
+  width: 100%;
+  background: #EDEDED;
+  color: black;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 4%;
 }
 /* End main*/
