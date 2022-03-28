@@ -853,6 +853,322 @@ main.katalog .setting__vidget .setting__vidget__one:nth-child(2):before {
   background-color: #FFAD00;
 }
 /* Конец конца товаров */
+/* Товарный бетон */
+.beton {
+  background-color: #E7E7E7;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.beton .setting__vidget {
+  width: 6%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+.beton .setting__vidget .setting__vidget__one {
+  font-size: 40px;
+  text-align: center;
+  background: #CFCFCF;
+  color: #757575;
+  border-radius: 5px 0px 0px 0px;
+  margin-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: block;
+  position: relative;
+}
+.beton .setting__vidget .setting__vidget__one:hover {
+  background: #b4b3b3;
+}
+.beton .setting__vidget .setting__vidget__one:nth-child(1):before {
+  content: "0";
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #FFAD00;
+}
+.beton .setting__vidget .setting__vidget__one:nth-child(2):before {
+  content: "0";
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #FFAD00;
+}
+.beton .beton__mini-title {
+  font-family: 'Inter', sans-serif;
+  color: #ACACAC;
+  font-size: 15px;
+}
+.beton .beton__bold-title {
+  border-bottom-style: solid;
+  border-color: #CAC8C8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 1%;
+  border-width: 2px;
+  padding-bottom: 2%;
+}
+.beton .beton__bold-title span {
+  font-weight: 400;
+}
+.beton .beton__blocks {
+  border-bottom-style: solid;
+  margin-top: 1.5%;
+  padding-bottom: 3%;
+  border-color: #CAC8C8;
+  border-width: 2px;
+}
+.beton .beton__blocks .beton__blocks__block {
+  border-color: #CFCFCF;
+  border-style: solid;
+  width: 100%;
+  background-color: #CFCFCF;
+  padding: 4.9%;
+  border-radius: 5px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.beton .beton__blocks .beton__blocks__block .beton__blocks__block__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.beton .beton__blocks .beton__blocks__block .beton__blocks__block__title span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+}
+.beton .beton__blocks .beton__blocks__block.active {
+  background-color: #FFAD00;
+  border-color: #FFAD00;
+}
+.beton .beton__items {
+  margin-top: 2%;
+}
+.beton .beton__items .beton__nav {
+  border-style: solid;
+  border-color: transparent;
+}
+.beton .beton__items .beton__nav .beton__nav__title {
+  display: flex;
+}
+.beton .beton__items .beton__nav .beton__nav__title img {
+  display: block;
+  width: 14%;
+}
+.beton .beton__items .beton__nav .beton__nav__title span {
+  display: block;
+  width: 76%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  align-self: center;
+  margin-left: 4%;
+}
+.beton .beton__items .beton__nav .beton__nav__block {
+  background-color: transparent;
+  border-color: #CFCFCF;
+  border-style: solid;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 7%;
+  border-radius: 5px;
+  border-width: 2px;
+  margin-top: 3%;
+  color: #757575;
+  display: flex;
+  line-height: 22px;
+  cursor: pointer;
+}
+.beton .beton__items .beton__nav .beton__nav__block:hover {
+  background: #D3D3D3;
+}
+.beton .beton__items .beton__nav .beton__nav__block:nth-child(2) {
+  margin-top: 8%;
+  background: #D3D3D3;
+}
+.beton .beton__items .beton__nav .beton__nav__block i {
+  display: block;
+  width: 10%;
+  margin-left: auto;
+  align-self: center;
+}
+.beton .beton__item {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.beton .beton__item .beton__item__desc {
+  border-bottom-style: solid;
+  border-color: #CAC8C8;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #757575;
+  border-width: 2px;
+  padding-bottom: 1.5%;
+}
+.beton .beton__item .beton__item__desc img {
+  width: 4%;
+}
+.beton .beton__item .beton__item__desc span {
+  margin-left: 2%;
+}
+.beton .beton__item .beton__item__block {
+  margin-top: 5%;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image {
+  position: relative;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image .beton__item__block__new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 0px 0px 8px 0px;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image .hit {
+  background-color: #FFAD00;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image .beton__item__block__love {
+  background-color: white;
+  color: black;
+  width: 17%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 20%;
+  right: 3%;
+  color: grey;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image .beton__item__block__znak {
+  background-color: white;
+  color: grey;
+  width: 17%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+.beton .beton__item .beton__item__block .beton__item__block__image img {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.beton .beton__item .beton__item__block .beton__item__block__desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(117, 117, 117, 0.71);
+  margin-top: 3%;
+}
+.beton .beton__item .beton__item__block .beton__items__block__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 2%;
+  position: relative;
+}
+.beton .beton__item .beton__item__block .beton__items__block__title .beton__items__block__start {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 33%;
+  font-size: 11px;
+  color: #FFAD00;
+}
+.beton .beton__item .beton__item__block .beton__items__block__title .beton__items__block__start .null {
+  color: white;
+}
+.beton .beton__item .beton__item__block .beton__items__block__title span {
+  font-weight: 800;
+  font-size: 18px;
+}
+.beton .beton__item .beton__item__block .beton__items__block__title span span {
+  font-weight: 300;
+  font-size: 14px;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count .beton__items__block__count__btn {
+  background-color: #FFAD00;
+  align-items: center;
+  height: 30px;
+  padding: 1%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.8%;
+  margin-left: auto;
+  cursor: pointer;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count .setting__left__product__checkbox {
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 60%;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count .setting__left__product__checkbox .setting__left__product__checkbox__arrow {
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count .setting__left__product__checkbox .setting__left__product__checkbox__count {
+  background: #CFCFCF;
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-style: none;
+}
+.beton .beton__item .beton__item__block .beton__items__block__count .setting__left__product__checkbox .setting__left__product__checkbox__count::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+/* Конец товарного бетона */
 @media screen and (max-width: 414px) {
   .setting__vidget {
     display: none;
