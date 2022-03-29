@@ -965,6 +965,187 @@ main.katalog{
   padding-top: 4%;
   padding-bottom: 4%;
 
+
+
+
+
+
+  /* Страница корзины */
+
+  .beton__btn{
+    margin-top: 4%;
+
+    .beton__btn__block{
+      background-color: #CFCFCF;
+      text-align: center;
+      font-family: @inter;
+      font-weight: 700;
+      font-size: 25px;
+      padding: 2%;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:nth-child(3){
+        background: #FFAD00;
+      }
+
+    }
+  }
+
+  .beton__price{
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+
+    .beton__price__inputPrice{
+      padding-left: 0%;
+      padding-right: 0%;
+      align-self: center;
+      input{
+        width: 100%;
+        border-style: none;
+        background: #E7E7E7;
+        padding: 2%;
+        padding-left: 5%;
+        border-radius: 5px;
+      }
+    }
+    .beton__price__itog{
+      font-family: @inter;
+      font-weight: 700;
+      font-size: 27px;
+      align-self: center;
+      text-align: center;
+    }
+    .beton__price__bold{
+      font-family: @inter;
+      font-weight: 700;
+      font-size: 44px;
+      text-align: center;
+    }
+  }
+
+
+
+  .beton__in{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 4%;
+    .beton__in__title{
+      font-weight: 400;
+      font-family: @inter;
+      font-size: 27px;
+      text-decoration: dashed;
+      text-decoration: underline;
+    }
+    .beton__in__clear{
+      font-family: @inter;
+      font-weight: 400;
+      font-size: 27px;
+      color: #CFCFCF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &:hover{
+        color: black;
+      }
+      i{
+        margin-left: 5%;
+      }
+    }
+
+    
+  }
+
+
+  .beton__itm{
+    border-style: solid;
+    border-color:#CFCFCF;
+    border-radius: 5px;
+    padding: 2%;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+
+    .beton__itm__desc{
+      font-family: @inter;
+      font-weight: 400;
+      font-size: 26px;
+      color: #757575;
+      align-self: center;
+    }
+    .beton__imt__price{
+      text-align: center;
+      font-family: @inter;
+      font-weight: 400;
+      font-size: 26px;
+      color: #757575;
+      align-self: center;
+    }
+    .beton__imt__count{
+      padding-left: 0%;
+      padding-right: 0%;
+      align-self: center;
+      .setting__left__product__checkbox{
+        border-color: #CFCFCF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-width: 2px;
+        padding-top: 2.3%;
+        padding-bottom: 2%;
+        font-family: @inter;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        .setting__left__product__checkbox__arrow{
+          width:25%;
+          background-color: white;
+          text-align: center;
+          font-family: @inter;
+          font-weight: 700;
+          padding-top: 2.6%;
+          padding-bottom: 2.6%;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .setting__left__product__checkbox__count{
+          background: #CFCFCF;
+          border-radius: 5px;
+          width: 45%;
+          text-align: center;
+          padding-top: 2.6%;
+          padding-bottom: 2.6%;
+          border-style: none;
+          &::placeholder{
+            font-family: @inter;
+            color: black;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .beton__imt__bold-price{
+      text-align: center;
+      font-weight: 700;
+      font-size: 26px;
+      align-self: center;
+    }
+
+  }
+
+
+  /* Конец страницы корзины */
+
+
+
   .setting__vidget{
     width: 6%;
     position: absolute;

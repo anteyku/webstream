@@ -858,6 +858,162 @@ main.katalog .setting__vidget .setting__vidget__one:nth-child(2):before {
   background-color: #E7E7E7;
   padding-top: 4%;
   padding-bottom: 4%;
+  /* Страница корзины */
+  /* Конец страницы корзины */
+}
+.beton .beton__btn {
+  margin-top: 4%;
+}
+.beton .beton__btn .beton__btn__block {
+  background-color: #CFCFCF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.beton .beton__btn .beton__btn__block:nth-child(3) {
+  background: #FFAD00;
+}
+.beton .beton__price {
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+}
+.beton .beton__price .beton__price__inputPrice {
+  padding-left: 0%;
+  padding-right: 0%;
+  align-self: center;
+}
+.beton .beton__price .beton__price__inputPrice input {
+  width: 100%;
+  border-style: none;
+  background: #E7E7E7;
+  padding: 2%;
+  padding-left: 5%;
+  border-radius: 5px;
+}
+.beton .beton__price .beton__price__itog {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  align-self: center;
+  text-align: center;
+}
+.beton .beton__price .beton__price__bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+}
+.beton .beton__in {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 4%;
+}
+.beton .beton__in .beton__in__title {
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-size: 27px;
+  text-decoration: dashed;
+  text-decoration: underline;
+}
+.beton .beton__in .beton__in__clear {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  color: #CFCFCF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.beton .beton__in .beton__in__clear:hover {
+  color: black;
+}
+.beton .beton__in .beton__in__clear i {
+  margin-left: 5%;
+}
+.beton .beton__itm {
+  border-style: solid;
+  border-color: #CFCFCF;
+  border-radius: 5px;
+  padding: 2%;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+}
+.beton .beton__itm .beton__itm__desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #757575;
+  align-self: center;
+}
+.beton .beton__itm .beton__imt__price {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #757575;
+  align-self: center;
+}
+.beton .beton__itm .beton__imt__count {
+  padding-left: 0%;
+  padding-right: 0%;
+  align-self: center;
+}
+.beton .beton__itm .beton__imt__count .setting__left__product__checkbox {
+  border-color: #CFCFCF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 2px;
+  padding-top: 2.3%;
+  padding-bottom: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+.beton .beton__itm .beton__imt__count .setting__left__product__checkbox .setting__left__product__checkbox__arrow {
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.beton .beton__itm .beton__imt__count .setting__left__product__checkbox .setting__left__product__checkbox__count {
+  background: #CFCFCF;
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+  padding-top: 2.6%;
+  padding-bottom: 2.6%;
+  border-style: none;
+}
+.beton .beton__itm .beton__imt__count .setting__left__product__checkbox .setting__left__product__checkbox__count::placeholder {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+.beton .beton__itm .beton__imt__bold-price {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  align-self: center;
 }
 .beton .setting__vidget {
   width: 6%;
